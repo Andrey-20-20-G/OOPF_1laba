@@ -1,4 +1,5 @@
 ﻿using OOPF_1laba.Part_1;
+using OOPF_1laba.Part_2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,13 @@ namespace OOPF_1laba
     internal class Program
     {
         static void Main(string[] args)
+        {
+            //MainForTheFirstPart();
+            MainForTheSecondPart();
+        }
+
+        #region Part_1
+        static void MainForTheFirstPart()
         {
             #region Вывод на экран символов в разных потоках с использованием Thread
             var threadForTheFirstTask = new ThreadForTheFirstTask();
@@ -29,5 +37,13 @@ namespace OOPF_1laba
             myTask.MyMain();
             #endregion
         }
+        #endregion
+        #region Part_2
+        static void MainForTheSecondPart()
+        {
+            var mainclass_ex2 = new MainClassForTheSecondEx();
+            mainclass_ex2.MyMain_Part2();
+        }
+        #endregion
     }
 }
