@@ -49,11 +49,14 @@
     <Compile Include="Part_1\ThreadForTheFirstTask.cs" />
     <Compile Include="Part_1\ThreadPoolForTheSecondTask.cs" />
     <Compile Include="Part_1\ThreadPoolWithResult.cs" />
+    <Compile Include="Part_2\MainClassForTheSecondEx.cs" />
+    <Compile Include="Part_2\MyTaskScheduler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
